@@ -1,0 +1,37 @@
+en:
+  index:
+    title: Listing %{model}
+  new:
+    title: New %{model}
+    label: New
+  edit:
+    title: Editing %{model}
+    label: Edit
+  show:
+    label: Show
+  destroy:
+    label: Destroy
+    confirm: Are you sure?
+  back:
+    label: Back
+  create:
+    sucess: "%{model} was successfully created"
+  update:
+    sucess: "%{model} was successfully updated"  
+    
+  activerecord:
+    models:
+      pessoa:
+        one: Person
+        other: People
+      medico:
+        one: Doctor  
+        other: Doctors
+    attributes:
+      pessoa:
+        nome: Full Name
+        endereco: Adress
+        idade: Years
+      medico:
+         crm: CRM
+        

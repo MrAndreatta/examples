@@ -1,0 +1,37 @@
+pt-BR:
+  index:
+    title: Lista de %{model}
+  new:
+    title: Novo %{model}
+    label: Novo
+  edit:
+    title: Editando %{model}
+    label: Editar
+  show:
+    label: Visualizar
+  destroy:
+    label: Excluir
+    confirm: Deseja realmente excluir?
+  back:
+    label: Voltar
+  create:
+    sucess: "%{model} foi criado com sucesso"
+  update:
+    sucess: "%{model} foi atualizado com sucesso"    
+
+  activerecord:
+    models:
+      pessoa:
+        one: Pessoa
+        other: Pessoas
+      medico:
+        one: Médico  
+        other: Médicos
+    attributes:
+      pessoa:
+        nome: Nome Completo
+        endereco: Endereço
+        idade: Idade
+      medico:
+         crm: CRM  
+        
